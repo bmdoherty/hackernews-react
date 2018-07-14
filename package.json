@@ -1,13 +1,13 @@
 {
     "name": "hackernews",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "private": true,
     "homepage": "http://bmdoherty.github.io/hackernews-react",
     "dependencies": {
         "axios": "^0.18.0",
-        "react": "^16.2.0",
-        "react-dom": "^16.2.0",
-        "react-scripts": "1.1.1"
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-scripts": "^1.1.4"
     },
     "scripts": {
         "predeploy": "npm run build",
@@ -20,8 +20,8 @@
     "devDependencies": {
         "enzyme": "^3.3.0",
         "enzyme-adapter-react-16": "^1.1.1",
-        "gh-pages": "^1.1.0",
+        "gh-pages": "^1.2.0",
         "react-addons-test-utils": "^15.6.2",
-        "react-test-renderer": "^16.2.0"
+        "react-test-renderer": "^16.4.1"
     }
 }
