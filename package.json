@@ -5,9 +5,9 @@
     "homepage": "http://bmdoherty.github.io/hackernews-react",
     "dependencies": {
         "axios": "^0.18.0",
-        "react": "^16.5.2",
-        "react-dom": "^16.5.2",
-        "react-scripts": "^2.0.5"
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0",
+        "react-scripts": "^2.1.1"
     },
     "scripts": {
         "predeploy": "npm run build",
@@ -22,6 +22,6 @@
         "enzyme-adapter-react-16": "^1.4.0",
         "gh-pages": "^2.0.0",
         "react-addons-test-utils": "^15.6.2",
-        "react-test-renderer": "^16.5.2"
+        "react-test-renderer": "^16.6.0"
     }
 }
