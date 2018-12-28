@@ -1,0 +1,19 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "> 5%"
+                    ],
+                    "node": "current"
+                },
+                "debug": true
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-export-default-from"
+    ]
+}

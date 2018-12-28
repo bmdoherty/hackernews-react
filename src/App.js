@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
+import breadcrumb from '@ecl/ec-react-component-breadcrumb';
 
 const DEFAULT_QUERY = "redux";
 const DEFAULT_HPP = "10";
@@ -131,24 +132,24 @@ class App extends Component {
                         <p>Something went wrong.</p>
                     </div>
                 ) : (
-                    <ErrorBoundary error={error}>
-                        <Table list={list} onClick={this.onDismiss} />
+                        <ErrorBoundary error={error}>
+                            <Table list={list} onClick={this.onDismiss} />
 
-                        <div className="interactions">
-                            <Button
-                                type="button"
-                                onClick={() =>
-                                    this.fetchSearchTopStories(
-                                        searchKey,
-                                        page + 1
-                                    )
-                                }
-                            >
-                                More
+                            <div className="interactions">
+                                <Button
+                                    type="button"
+                                    onClick={() =>
+                                        this.fetchSearchTopStories(
+                                            searchKey,
+                                            page + 1
+                                        )
+                                    }
+                                >
+                                    More
                             </Button>
-                        </div>
-                    </ErrorBoundary>
-                )}
+                            </div>
+                        </ErrorBoundary>
+                    )}
             </div>
         );
     }
